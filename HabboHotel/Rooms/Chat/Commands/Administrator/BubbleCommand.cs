@@ -27,7 +27,7 @@ namespace Plus.HabboHotel.Rooms.Chat.Commands.Administrator
 
             if (Params.Length == 1)
             {
-                Session.SendWhisper("Oops, you forgot to enter a bubble ID!");
+                Session.SendWhisper("Hoppsan, du glömde att skriva ett ID!");
                 return;
             }
 
