@@ -16,7 +16,7 @@ namespace Plus.HabboHotel.Rooms.Chat.Commands.Administrator
 
         public string Description
         {
-            get { return "Use a custom bubble to chat with."; }
+            get { return "Använd en custom bubbla att chatta med"; }
         }
 
         public void Execute(GameClients.GameClient Session, Room Room, string[] Params)
