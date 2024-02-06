@@ -41,7 +41,7 @@ namespace Plus.HabboHotel.Rooms.Chat.Commands.Administrator
             ChatStyle Style = null;
             if (!PlusEnvironment.GetGame().GetChatManager().GetChatStyles().TryGetStyle(Bubble, out Style) || (Style.RequiredRight.Length > 0 && !Session.GetHabbo().GetPermissions().HasRight(Style.RequiredRight)))
             {
-                Session.SendWhisper("Oops, you cannot use this bubble due to a rank requirement, sorry!");
+                Session.SendWhisper("Oops, you cannot use this bubble due to a rank requirement, sorry!!");
                 return;
             }
 
